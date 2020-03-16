@@ -28,7 +28,10 @@ deps/lua/src/liblua.a
 .prerequisites
 *.dSYM
 Makefile.dep
+.vscode
+.idea
 
+#my gitignore
 CMakeFiles/*
 CMakeCache.*
 cmake_install.cmake
