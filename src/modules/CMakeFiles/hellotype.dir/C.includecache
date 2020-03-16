@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/data/app/redis/src/modules/hellotype.c
+../redismodule.h
+/data/app/redis/src/redismodule.h
+stdio.h
+-
+stdlib.h
+-
+ctype.h
+-
+string.h
+-
+stdint.h
+-
+
+/data/app/redis/src/redismodule.h
+sys/types.h
+-
+stdint.h
+-
+stdio.h
+-
+

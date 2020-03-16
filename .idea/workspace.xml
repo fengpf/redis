@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e7ddb8e9-14aa-478d-bd0f-d8893693de9a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deps/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deps/linenoise/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deps/lua/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deps/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/deps/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deps/hiredis/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/deps/hiredis/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deps/linenoise/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/deps/linenoise/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deps/lua/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/deps/lua/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ae_kqueue.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/ae_kqueue.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/Makefile" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1Z1ph3urzHxybZ5T4bRb9ePpDRH" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/deps/hiredis" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/modules" />
+      <recent name="$PROJECT_DIR$/deps/lua" />
+      <recent name="$PROJECT_DIR$/deps/linenoise" />
+      <recent name="$PROJECT_DIR$/deps/hiredis" />
+      <recent name="$PROJECT_DIR$/deps" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e7ddb8e9-14aa-478d-bd0f-d8893693de9a" name="Default Changelist" comment="" />
+      <created>1584016569403</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584016569403</updated>
+      <workItem from="1584016570515" duration="1805000" />
+      <workItem from="1584342125233" duration="45000" />
+      <workItem from="1584342185286" duration="1309000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
