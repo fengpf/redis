@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/data/app/redis/deps/hiredis/async.c
+/data/app/c/redis/deps/hiredis/async.c
 fmacros.h
-/data/app/redis/deps/hiredis/fmacros.h
+/data/app/c/redis/deps/hiredis/fmacros.h
 stdlib.h
 -
 string.h
@@ -22,21 +22,21 @@ ctype.h
 errno.h
 -
 async.h
-/data/app/redis/deps/hiredis/async.h
+/data/app/c/redis/deps/hiredis/async.h
 net.h
-/data/app/redis/deps/hiredis/net.h
+/data/app/c/redis/deps/hiredis/net.h
 dict.c
-/data/app/redis/deps/hiredis/dict.c
+/data/app/c/redis/deps/hiredis/dict.c
 sds.h
-/data/app/redis/deps/hiredis/sds.h
+/data/app/c/redis/deps/hiredis/sds.h
 
-/data/app/redis/deps/hiredis/async.h
+/data/app/c/redis/deps/hiredis/async.h
 hiredis.h
-/data/app/redis/deps/hiredis/hiredis.h
+/data/app/c/redis/deps/hiredis/hiredis.h
 
-/data/app/redis/deps/hiredis/dict.c
+/data/app/c/redis/deps/hiredis/dict.c
 fmacros.h
-/data/app/redis/deps/hiredis/fmacros.h
+/data/app/c/redis/deps/hiredis/fmacros.h
 stdlib.h
 -
 assert.h
@@ -44,17 +44,17 @@ assert.h
 limits.h
 -
 dict.h
-/data/app/redis/deps/hiredis/dict.h
+/data/app/c/redis/deps/hiredis/dict.h
 
-/data/app/redis/deps/hiredis/dict.h
+/data/app/c/redis/deps/hiredis/dict.h
 
-/data/app/redis/deps/hiredis/fmacros.h
+/data/app/c/redis/deps/hiredis/fmacros.h
 sys/cdefs.h
 -
 
-/data/app/redis/deps/hiredis/hiredis.c
+/data/app/c/redis/deps/hiredis/hiredis.c
 fmacros.h
-/data/app/redis/deps/hiredis/fmacros.h
+/data/app/c/redis/deps/hiredis/fmacros.h
 string.h
 -
 stdlib.h
@@ -68,15 +68,15 @@ errno.h
 ctype.h
 -
 hiredis.h
-/data/app/redis/deps/hiredis/hiredis.h
+/data/app/c/redis/deps/hiredis/hiredis.h
 net.h
-/data/app/redis/deps/hiredis/net.h
+/data/app/c/redis/deps/hiredis/net.h
 sds.h
-/data/app/redis/deps/hiredis/sds.h
+/data/app/c/redis/deps/hiredis/sds.h
 
-/data/app/redis/deps/hiredis/hiredis.h
+/data/app/c/redis/deps/hiredis/hiredis.h
 read.h
-/data/app/redis/deps/hiredis/read.h
+/data/app/c/redis/deps/hiredis/read.h
 stdarg.h
 -
 sys/time.h
@@ -84,11 +84,11 @@ sys/time.h
 stdint.h
 -
 sds.h
-/data/app/redis/deps/hiredis/sds.h
+/data/app/c/redis/deps/hiredis/sds.h
 
-/data/app/redis/deps/hiredis/net.c
+/data/app/c/redis/deps/hiredis/net.c
 fmacros.h
-/data/app/redis/deps/hiredis/fmacros.h
+/data/app/c/redis/deps/hiredis/fmacros.h
 sys/types.h
 -
 sys/socket.h
@@ -124,17 +124,17 @@ limits.h
 stdlib.h
 -
 net.h
-/data/app/redis/deps/hiredis/net.h
+/data/app/c/redis/deps/hiredis/net.h
 sds.h
-/data/app/redis/deps/hiredis/sds.h
+/data/app/c/redis/deps/hiredis/sds.h
 
-/data/app/redis/deps/hiredis/net.h
+/data/app/c/redis/deps/hiredis/net.h
 hiredis.h
-/data/app/redis/deps/hiredis/hiredis.h
+/data/app/c/redis/deps/hiredis/hiredis.h
 
-/data/app/redis/deps/hiredis/read.c
+/data/app/c/redis/deps/hiredis/read.c
 fmacros.h
-/data/app/redis/deps/hiredis/fmacros.h
+/data/app/c/redis/deps/hiredis/fmacros.h
 string.h
 -
 stdlib.h
@@ -148,15 +148,15 @@ errno.h
 ctype.h
 -
 read.h
-/data/app/redis/deps/hiredis/read.h
+/data/app/c/redis/deps/hiredis/read.h
 sds.h
-/data/app/redis/deps/hiredis/sds.h
+/data/app/c/redis/deps/hiredis/sds.h
 
-/data/app/redis/deps/hiredis/read.h
+/data/app/c/redis/deps/hiredis/read.h
 stdio.h
 -
 
-/data/app/redis/deps/hiredis/sds.c
+/data/app/c/redis/deps/hiredis/sds.c
 stdio.h
 -
 stdlib.h
@@ -168,17 +168,17 @@ ctype.h
 assert.h
 -
 sds.h
-/data/app/redis/deps/hiredis/sds.h
+/data/app/c/redis/deps/hiredis/sds.h
 sdsalloc.h
-/data/app/redis/deps/hiredis/sdsalloc.h
+/data/app/c/redis/deps/hiredis/sdsalloc.h
 stdio.h
 -
 testhelp.h
-/data/app/redis/deps/hiredis/testhelp.h
+/data/app/c/redis/deps/hiredis/testhelp.h
 limits.h
-/data/app/redis/deps/hiredis/limits.h
+/data/app/c/redis/deps/hiredis/limits.h
 
-/data/app/redis/deps/hiredis/sds.h
+/data/app/c/redis/deps/hiredis/sds.h
 sys/types.h
 -
 stdarg.h
@@ -186,5 +186,5 @@ stdarg.h
 stdint.h
 -
 
-/data/app/redis/deps/hiredis/sdsalloc.h
+/data/app/c/redis/deps/hiredis/sdsalloc.h
 

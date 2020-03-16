@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/data/app/redis/src/modules/hellotype.c" "/data/app/redis/src/modules/CMakeFiles/hellotype.dir/hellotype.c.o"
+  "/data/app/c/redis/src/modules/hellotype.c" "/data/app/c/redis/src/modules/CMakeFiles/hellotype.dir/hellotype.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

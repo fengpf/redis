@@ -1,4 +1,4 @@
-# Install script for directory: /data/app/redis/src/modules
+# Install script for directory: /data/app/c/redis/src/modules
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

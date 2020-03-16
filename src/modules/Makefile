@@ -48,10 +48,10 @@ RM = /usr/local/Cellar/cmake/3.14.0/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /data/app/redis
+CMAKE_SOURCE_DIR = /data/app/c/redis
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /data/app/redis
+CMAKE_BINARY_DIR = /data/app/c/redis
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /data/app/redis && $(CMAKE_COMMAND) -E cmake_progress_start /data/app/redis/CMakeFiles /data/app/redis/src/modules/CMakeFiles/progress.marks
-	cd /data/app/redis && $(MAKE) -f CMakeFiles/Makefile2 src/modules/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /data/app/redis/CMakeFiles 0
+	cd /data/app/c/redis && $(CMAKE_COMMAND) -E cmake_progress_start /data/app/c/redis/CMakeFiles /data/app/c/redis/src/modules/CMakeFiles/progress.marks
+	cd /data/app/c/redis && $(MAKE) -f CMakeFiles/Makefile2 src/modules/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /data/app/c/redis/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /data/app/redis && $(MAKE) -f CMakeFiles/Makefile2 src/modules/clean
+	cd /data/app/c/redis && $(MAKE) -f CMakeFiles/Makefile2 src/modules/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /data/app/redis && $(MAKE) -f CMakeFiles/Makefile2 src/modules/preinstall
+	cd /data/app/c/redis && $(MAKE) -f CMakeFiles/Makefile2 src/modules/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /data/app/redis && $(MAKE) -f CMakeFiles/Makefile2 src/modules/preinstall
+	cd /data/app/c/redis && $(MAKE) -f CMakeFiles/Makefile2 src/modules/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /data/app/redis && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /data/app/c/redis && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/modules/CMakeFiles/testmodule.dir/rule:
-	cd /data/app/redis && $(MAKE) -f CMakeFiles/Makefile2 src/modules/CMakeFiles/testmodule.dir/rule
+	cd /data/app/c/redis && $(MAKE) -f CMakeFiles/Makefile2 src/modules/CMakeFiles/testmodule.dir/rule
 .PHONY : src/modules/CMakeFiles/testmodule.dir/rule
 
 # Convenience name for target.
@@ -122,12 +122,12 @@ testmodule: src/modules/CMakeFiles/testmodule.dir/rule
 
 # fast build rule for target.
 testmodule/fast:
-	cd /data/app/redis && $(MAKE) -f src/modules/CMakeFiles/testmodule.dir/build.make src/modules/CMakeFiles/testmodule.dir/build
+	cd /data/app/c/redis && $(MAKE) -f src/modules/CMakeFiles/testmodule.dir/build.make src/modules/CMakeFiles/testmodule.dir/build
 .PHONY : testmodule/fast
 
 # Convenience name for target.
 src/modules/CMakeFiles/helloblock.dir/rule:
-	cd /data/app/redis && $(MAKE) -f CMakeFiles/Makefile2 src/modules/CMakeFiles/helloblock.dir/rule
+	cd /data/app/c/redis && $(MAKE) -f CMakeFiles/Makefile2 src/modules/CMakeFiles/helloblock.dir/rule
 .PHONY : src/modules/CMakeFiles/helloblock.dir/rule
 
 # Convenience name for target.
@@ -137,12 +137,12 @@ helloblock: src/modules/CMakeFiles/helloblock.dir/rule
 
 # fast build rule for target.
 helloblock/fast:
-	cd /data/app/redis && $(MAKE) -f src/modules/CMakeFiles/helloblock.dir/build.make src/modules/CMakeFiles/helloblock.dir/build
+	cd /data/app/c/redis && $(MAKE) -f src/modules/CMakeFiles/helloblock.dir/build.make src/modules/CMakeFiles/helloblock.dir/build
 .PHONY : helloblock/fast
 
 # Convenience name for target.
 src/modules/CMakeFiles/hellotype.dir/rule:
-	cd /data/app/redis && $(MAKE) -f CMakeFiles/Makefile2 src/modules/CMakeFiles/hellotype.dir/rule
+	cd /data/app/c/redis && $(MAKE) -f CMakeFiles/Makefile2 src/modules/CMakeFiles/hellotype.dir/rule
 .PHONY : src/modules/CMakeFiles/hellotype.dir/rule
 
 # Convenience name for target.
@@ -152,12 +152,12 @@ hellotype: src/modules/CMakeFiles/hellotype.dir/rule
 
 # fast build rule for target.
 hellotype/fast:
-	cd /data/app/redis && $(MAKE) -f src/modules/CMakeFiles/hellotype.dir/build.make src/modules/CMakeFiles/hellotype.dir/build
+	cd /data/app/c/redis && $(MAKE) -f src/modules/CMakeFiles/hellotype.dir/build.make src/modules/CMakeFiles/hellotype.dir/build
 .PHONY : hellotype/fast
 
 # Convenience name for target.
 src/modules/CMakeFiles/helloworld.dir/rule:
-	cd /data/app/redis && $(MAKE) -f CMakeFiles/Makefile2 src/modules/CMakeFiles/helloworld.dir/rule
+	cd /data/app/c/redis && $(MAKE) -f CMakeFiles/Makefile2 src/modules/CMakeFiles/helloworld.dir/rule
 .PHONY : src/modules/CMakeFiles/helloworld.dir/rule
 
 # Convenience name for target.
@@ -167,7 +167,7 @@ helloworld: src/modules/CMakeFiles/helloworld.dir/rule
 
 # fast build rule for target.
 helloworld/fast:
-	cd /data/app/redis && $(MAKE) -f src/modules/CMakeFiles/helloworld.dir/build.make src/modules/CMakeFiles/helloworld.dir/build
+	cd /data/app/c/redis && $(MAKE) -f src/modules/CMakeFiles/helloworld.dir/build.make src/modules/CMakeFiles/helloworld.dir/build
 .PHONY : helloworld/fast
 
 helloblock.o: helloblock.c.o
@@ -176,7 +176,7 @@ helloblock.o: helloblock.c.o
 
 # target to build an object file
 helloblock.c.o:
-	cd /data/app/redis && $(MAKE) -f src/modules/CMakeFiles/helloblock.dir/build.make src/modules/CMakeFiles/helloblock.dir/helloblock.c.o
+	cd /data/app/c/redis && $(MAKE) -f src/modules/CMakeFiles/helloblock.dir/build.make src/modules/CMakeFiles/helloblock.dir/helloblock.c.o
 .PHONY : helloblock.c.o
 
 helloblock.i: helloblock.c.i
@@ -185,7 +185,7 @@ helloblock.i: helloblock.c.i
 
 # target to preprocess a source file
 helloblock.c.i:
-	cd /data/app/redis && $(MAKE) -f src/modules/CMakeFiles/helloblock.dir/build.make src/modules/CMakeFiles/helloblock.dir/helloblock.c.i
+	cd /data/app/c/redis && $(MAKE) -f src/modules/CMakeFiles/helloblock.dir/build.make src/modules/CMakeFiles/helloblock.dir/helloblock.c.i
 .PHONY : helloblock.c.i
 
 helloblock.s: helloblock.c.s
@@ -194,7 +194,7 @@ helloblock.s: helloblock.c.s
 
 # target to generate assembly for a file
 helloblock.c.s:
-	cd /data/app/redis && $(MAKE) -f src/modules/CMakeFiles/helloblock.dir/build.make src/modules/CMakeFiles/helloblock.dir/helloblock.c.s
+	cd /data/app/c/redis && $(MAKE) -f src/modules/CMakeFiles/helloblock.dir/build.make src/modules/CMakeFiles/helloblock.dir/helloblock.c.s
 .PHONY : helloblock.c.s
 
 hellotype.o: hellotype.c.o
@@ -203,7 +203,7 @@ hellotype.o: hellotype.c.o
 
 # target to build an object file
 hellotype.c.o:
-	cd /data/app/redis && $(MAKE) -f src/modules/CMakeFiles/hellotype.dir/build.make src/modules/CMakeFiles/hellotype.dir/hellotype.c.o
+	cd /data/app/c/redis && $(MAKE) -f src/modules/CMakeFiles/hellotype.dir/build.make src/modules/CMakeFiles/hellotype.dir/hellotype.c.o
 .PHONY : hellotype.c.o
 
 hellotype.i: hellotype.c.i
@@ -212,7 +212,7 @@ hellotype.i: hellotype.c.i
 
 # target to preprocess a source file
 hellotype.c.i:
-	cd /data/app/redis && $(MAKE) -f src/modules/CMakeFiles/hellotype.dir/build.make src/modules/CMakeFiles/hellotype.dir/hellotype.c.i
+	cd /data/app/c/redis && $(MAKE) -f src/modules/CMakeFiles/hellotype.dir/build.make src/modules/CMakeFiles/hellotype.dir/hellotype.c.i
 .PHONY : hellotype.c.i
 
 hellotype.s: hellotype.c.s
@@ -221,7 +221,7 @@ hellotype.s: hellotype.c.s
 
 # target to generate assembly for a file
 hellotype.c.s:
-	cd /data/app/redis && $(MAKE) -f src/modules/CMakeFiles/hellotype.dir/build.make src/modules/CMakeFiles/hellotype.dir/hellotype.c.s
+	cd /data/app/c/redis && $(MAKE) -f src/modules/CMakeFiles/hellotype.dir/build.make src/modules/CMakeFiles/hellotype.dir/hellotype.c.s
 .PHONY : hellotype.c.s
 
 helloworld.o: helloworld.c.o
@@ -230,7 +230,7 @@ helloworld.o: helloworld.c.o
 
 # target to build an object file
 helloworld.c.o:
-	cd /data/app/redis && $(MAKE) -f src/modules/CMakeFiles/helloworld.dir/build.make src/modules/CMakeFiles/helloworld.dir/helloworld.c.o
+	cd /data/app/c/redis && $(MAKE) -f src/modules/CMakeFiles/helloworld.dir/build.make src/modules/CMakeFiles/helloworld.dir/helloworld.c.o
 .PHONY : helloworld.c.o
 
 helloworld.i: helloworld.c.i
@@ -239,7 +239,7 @@ helloworld.i: helloworld.c.i
 
 # target to preprocess a source file
 helloworld.c.i:
-	cd /data/app/redis && $(MAKE) -f src/modules/CMakeFiles/helloworld.dir/build.make src/modules/CMakeFiles/helloworld.dir/helloworld.c.i
+	cd /data/app/c/redis && $(MAKE) -f src/modules/CMakeFiles/helloworld.dir/build.make src/modules/CMakeFiles/helloworld.dir/helloworld.c.i
 .PHONY : helloworld.c.i
 
 helloworld.s: helloworld.c.s
@@ -248,7 +248,7 @@ helloworld.s: helloworld.c.s
 
 # target to generate assembly for a file
 helloworld.c.s:
-	cd /data/app/redis && $(MAKE) -f src/modules/CMakeFiles/helloworld.dir/build.make src/modules/CMakeFiles/helloworld.dir/helloworld.c.s
+	cd /data/app/c/redis && $(MAKE) -f src/modules/CMakeFiles/helloworld.dir/build.make src/modules/CMakeFiles/helloworld.dir/helloworld.c.s
 .PHONY : helloworld.c.s
 
 testmodule.o: testmodule.c.o
@@ -257,7 +257,7 @@ testmodule.o: testmodule.c.o
 
 # target to build an object file
 testmodule.c.o:
-	cd /data/app/redis && $(MAKE) -f src/modules/CMakeFiles/testmodule.dir/build.make src/modules/CMakeFiles/testmodule.dir/testmodule.c.o
+	cd /data/app/c/redis && $(MAKE) -f src/modules/CMakeFiles/testmodule.dir/build.make src/modules/CMakeFiles/testmodule.dir/testmodule.c.o
 .PHONY : testmodule.c.o
 
 testmodule.i: testmodule.c.i
@@ -266,7 +266,7 @@ testmodule.i: testmodule.c.i
 
 # target to preprocess a source file
 testmodule.c.i:
-	cd /data/app/redis && $(MAKE) -f src/modules/CMakeFiles/testmodule.dir/build.make src/modules/CMakeFiles/testmodule.dir/testmodule.c.i
+	cd /data/app/c/redis && $(MAKE) -f src/modules/CMakeFiles/testmodule.dir/build.make src/modules/CMakeFiles/testmodule.dir/testmodule.c.i
 .PHONY : testmodule.c.i
 
 testmodule.s: testmodule.c.s
@@ -275,7 +275,7 @@ testmodule.s: testmodule.c.s
 
 # target to generate assembly for a file
 testmodule.c.s:
-	cd /data/app/redis && $(MAKE) -f src/modules/CMakeFiles/testmodule.dir/build.make src/modules/CMakeFiles/testmodule.dir/testmodule.c.s
+	cd /data/app/c/redis && $(MAKE) -f src/modules/CMakeFiles/testmodule.dir/build.make src/modules/CMakeFiles/testmodule.dir/testmodule.c.s
 .PHONY : testmodule.c.s
 
 # Help Target
@@ -313,6 +313,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /data/app/redis && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /data/app/c/redis && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

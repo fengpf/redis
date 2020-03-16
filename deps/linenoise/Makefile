@@ -48,10 +48,10 @@ RM = /usr/local/Cellar/cmake/3.14.0/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /data/app/redis
+CMAKE_SOURCE_DIR = /data/app/c/redis
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /data/app/redis
+CMAKE_BINARY_DIR = /data/app/c/redis
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /data/app/redis && $(CMAKE_COMMAND) -E cmake_progress_start /data/app/redis/CMakeFiles /data/app/redis/deps/linenoise/CMakeFiles/progress.marks
-	cd /data/app/redis && $(MAKE) -f CMakeFiles/Makefile2 deps/linenoise/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /data/app/redis/CMakeFiles 0
+	cd /data/app/c/redis && $(CMAKE_COMMAND) -E cmake_progress_start /data/app/c/redis/CMakeFiles /data/app/c/redis/deps/linenoise/CMakeFiles/progress.marks
+	cd /data/app/c/redis && $(MAKE) -f CMakeFiles/Makefile2 deps/linenoise/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /data/app/c/redis/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /data/app/redis && $(MAKE) -f CMakeFiles/Makefile2 deps/linenoise/clean
+	cd /data/app/c/redis && $(MAKE) -f CMakeFiles/Makefile2 deps/linenoise/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /data/app/redis && $(MAKE) -f CMakeFiles/Makefile2 deps/linenoise/preinstall
+	cd /data/app/c/redis && $(MAKE) -f CMakeFiles/Makefile2 deps/linenoise/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /data/app/redis && $(MAKE) -f CMakeFiles/Makefile2 deps/linenoise/preinstall
+	cd /data/app/c/redis && $(MAKE) -f CMakeFiles/Makefile2 deps/linenoise/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /data/app/redis && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /data/app/c/redis && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 deps/linenoise/CMakeFiles/linenoise.dir/rule:
-	cd /data/app/redis && $(MAKE) -f CMakeFiles/Makefile2 deps/linenoise/CMakeFiles/linenoise.dir/rule
+	cd /data/app/c/redis && $(MAKE) -f CMakeFiles/Makefile2 deps/linenoise/CMakeFiles/linenoise.dir/rule
 .PHONY : deps/linenoise/CMakeFiles/linenoise.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ linenoise: deps/linenoise/CMakeFiles/linenoise.dir/rule
 
 # fast build rule for target.
 linenoise/fast:
-	cd /data/app/redis && $(MAKE) -f deps/linenoise/CMakeFiles/linenoise.dir/build.make deps/linenoise/CMakeFiles/linenoise.dir/build
+	cd /data/app/c/redis && $(MAKE) -f deps/linenoise/CMakeFiles/linenoise.dir/build.make deps/linenoise/CMakeFiles/linenoise.dir/build
 .PHONY : linenoise/fast
 
 linenoise.o: linenoise.c.o
@@ -131,7 +131,7 @@ linenoise.o: linenoise.c.o
 
 # target to build an object file
 linenoise.c.o:
-	cd /data/app/redis && $(MAKE) -f deps/linenoise/CMakeFiles/linenoise.dir/build.make deps/linenoise/CMakeFiles/linenoise.dir/linenoise.c.o
+	cd /data/app/c/redis && $(MAKE) -f deps/linenoise/CMakeFiles/linenoise.dir/build.make deps/linenoise/CMakeFiles/linenoise.dir/linenoise.c.o
 .PHONY : linenoise.c.o
 
 linenoise.i: linenoise.c.i
@@ -140,7 +140,7 @@ linenoise.i: linenoise.c.i
 
 # target to preprocess a source file
 linenoise.c.i:
-	cd /data/app/redis && $(MAKE) -f deps/linenoise/CMakeFiles/linenoise.dir/build.make deps/linenoise/CMakeFiles/linenoise.dir/linenoise.c.i
+	cd /data/app/c/redis && $(MAKE) -f deps/linenoise/CMakeFiles/linenoise.dir/build.make deps/linenoise/CMakeFiles/linenoise.dir/linenoise.c.i
 .PHONY : linenoise.c.i
 
 linenoise.s: linenoise.c.s
@@ -149,7 +149,7 @@ linenoise.s: linenoise.c.s
 
 # target to generate assembly for a file
 linenoise.c.s:
-	cd /data/app/redis && $(MAKE) -f deps/linenoise/CMakeFiles/linenoise.dir/build.make deps/linenoise/CMakeFiles/linenoise.dir/linenoise.c.s
+	cd /data/app/c/redis && $(MAKE) -f deps/linenoise/CMakeFiles/linenoise.dir/build.make deps/linenoise/CMakeFiles/linenoise.dir/linenoise.c.s
 .PHONY : linenoise.c.s
 
 # Help Target
@@ -175,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /data/app/redis && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /data/app/c/redis && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

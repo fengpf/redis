@@ -1,4 +1,4 @@
-# Install script for directory: /data/app/redis/deps/linenoise
+# Install script for directory: /data/app/c/redis/deps/linenoise
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

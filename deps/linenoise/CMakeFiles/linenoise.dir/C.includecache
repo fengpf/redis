@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/data/app/redis/deps/linenoise/linenoise.c
+/data/app/c/redis/deps/linenoise/linenoise.c
 termios.h
 -
 unistd.h
@@ -32,7 +32,7 @@ sys/ioctl.h
 unistd.h
 -
 linenoise.h
-/data/app/redis/deps/linenoise/linenoise.h
+/data/app/c/redis/deps/linenoise/linenoise.h
 
-/data/app/redis/deps/linenoise/linenoise.h
+/data/app/c/redis/deps/linenoise/linenoise.h
 

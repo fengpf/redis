@@ -43,10 +43,10 @@ RM = /usr/local/Cellar/cmake/3.14.0/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /data/app/redis
+CMAKE_SOURCE_DIR = /data/app/c/redis
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /data/app/redis
+CMAKE_BINARY_DIR = /data/app/c/redis
 
 # Include any dependencies generated for this target.
 include deps/hiredis/CMakeFiles/hiredis.dir/depend.make
@@ -59,81 +59,81 @@ include deps/hiredis/CMakeFiles/hiredis.dir/flags.make
 
 deps/hiredis/CMakeFiles/hiredis.dir/hiredis.c.o: deps/hiredis/CMakeFiles/hiredis.dir/flags.make
 deps/hiredis/CMakeFiles/hiredis.dir/hiredis.c.o: deps/hiredis/hiredis.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/data/app/redis/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object deps/hiredis/CMakeFiles/hiredis.dir/hiredis.c.o"
-	cd /data/app/redis/deps/hiredis && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hiredis.dir/hiredis.c.o   -c /data/app/redis/deps/hiredis/hiredis.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/data/app/c/redis/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object deps/hiredis/CMakeFiles/hiredis.dir/hiredis.c.o"
+	cd /data/app/c/redis/deps/hiredis && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hiredis.dir/hiredis.c.o   -c /data/app/c/redis/deps/hiredis/hiredis.c
 
 deps/hiredis/CMakeFiles/hiredis.dir/hiredis.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hiredis.dir/hiredis.c.i"
-	cd /data/app/redis/deps/hiredis && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /data/app/redis/deps/hiredis/hiredis.c > CMakeFiles/hiredis.dir/hiredis.c.i
+	cd /data/app/c/redis/deps/hiredis && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /data/app/c/redis/deps/hiredis/hiredis.c > CMakeFiles/hiredis.dir/hiredis.c.i
 
 deps/hiredis/CMakeFiles/hiredis.dir/hiredis.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hiredis.dir/hiredis.c.s"
-	cd /data/app/redis/deps/hiredis && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /data/app/redis/deps/hiredis/hiredis.c -o CMakeFiles/hiredis.dir/hiredis.c.s
+	cd /data/app/c/redis/deps/hiredis && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /data/app/c/redis/deps/hiredis/hiredis.c -o CMakeFiles/hiredis.dir/hiredis.c.s
 
 deps/hiredis/CMakeFiles/hiredis.dir/net.c.o: deps/hiredis/CMakeFiles/hiredis.dir/flags.make
 deps/hiredis/CMakeFiles/hiredis.dir/net.c.o: deps/hiredis/net.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/data/app/redis/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object deps/hiredis/CMakeFiles/hiredis.dir/net.c.o"
-	cd /data/app/redis/deps/hiredis && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hiredis.dir/net.c.o   -c /data/app/redis/deps/hiredis/net.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/data/app/c/redis/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object deps/hiredis/CMakeFiles/hiredis.dir/net.c.o"
+	cd /data/app/c/redis/deps/hiredis && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hiredis.dir/net.c.o   -c /data/app/c/redis/deps/hiredis/net.c
 
 deps/hiredis/CMakeFiles/hiredis.dir/net.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hiredis.dir/net.c.i"
-	cd /data/app/redis/deps/hiredis && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /data/app/redis/deps/hiredis/net.c > CMakeFiles/hiredis.dir/net.c.i
+	cd /data/app/c/redis/deps/hiredis && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /data/app/c/redis/deps/hiredis/net.c > CMakeFiles/hiredis.dir/net.c.i
 
 deps/hiredis/CMakeFiles/hiredis.dir/net.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hiredis.dir/net.c.s"
-	cd /data/app/redis/deps/hiredis && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /data/app/redis/deps/hiredis/net.c -o CMakeFiles/hiredis.dir/net.c.s
+	cd /data/app/c/redis/deps/hiredis && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /data/app/c/redis/deps/hiredis/net.c -o CMakeFiles/hiredis.dir/net.c.s
 
 deps/hiredis/CMakeFiles/hiredis.dir/dict.c.o: deps/hiredis/CMakeFiles/hiredis.dir/flags.make
 deps/hiredis/CMakeFiles/hiredis.dir/dict.c.o: deps/hiredis/dict.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/data/app/redis/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object deps/hiredis/CMakeFiles/hiredis.dir/dict.c.o"
-	cd /data/app/redis/deps/hiredis && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hiredis.dir/dict.c.o   -c /data/app/redis/deps/hiredis/dict.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/data/app/c/redis/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object deps/hiredis/CMakeFiles/hiredis.dir/dict.c.o"
+	cd /data/app/c/redis/deps/hiredis && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hiredis.dir/dict.c.o   -c /data/app/c/redis/deps/hiredis/dict.c
 
 deps/hiredis/CMakeFiles/hiredis.dir/dict.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hiredis.dir/dict.c.i"
-	cd /data/app/redis/deps/hiredis && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /data/app/redis/deps/hiredis/dict.c > CMakeFiles/hiredis.dir/dict.c.i
+	cd /data/app/c/redis/deps/hiredis && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /data/app/c/redis/deps/hiredis/dict.c > CMakeFiles/hiredis.dir/dict.c.i
 
 deps/hiredis/CMakeFiles/hiredis.dir/dict.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hiredis.dir/dict.c.s"
-	cd /data/app/redis/deps/hiredis && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /data/app/redis/deps/hiredis/dict.c -o CMakeFiles/hiredis.dir/dict.c.s
+	cd /data/app/c/redis/deps/hiredis && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /data/app/c/redis/deps/hiredis/dict.c -o CMakeFiles/hiredis.dir/dict.c.s
 
 deps/hiredis/CMakeFiles/hiredis.dir/sds.c.o: deps/hiredis/CMakeFiles/hiredis.dir/flags.make
 deps/hiredis/CMakeFiles/hiredis.dir/sds.c.o: deps/hiredis/sds.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/data/app/redis/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object deps/hiredis/CMakeFiles/hiredis.dir/sds.c.o"
-	cd /data/app/redis/deps/hiredis && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hiredis.dir/sds.c.o   -c /data/app/redis/deps/hiredis/sds.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/data/app/c/redis/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object deps/hiredis/CMakeFiles/hiredis.dir/sds.c.o"
+	cd /data/app/c/redis/deps/hiredis && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hiredis.dir/sds.c.o   -c /data/app/c/redis/deps/hiredis/sds.c
 
 deps/hiredis/CMakeFiles/hiredis.dir/sds.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hiredis.dir/sds.c.i"
-	cd /data/app/redis/deps/hiredis && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /data/app/redis/deps/hiredis/sds.c > CMakeFiles/hiredis.dir/sds.c.i
+	cd /data/app/c/redis/deps/hiredis && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /data/app/c/redis/deps/hiredis/sds.c > CMakeFiles/hiredis.dir/sds.c.i
 
 deps/hiredis/CMakeFiles/hiredis.dir/sds.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hiredis.dir/sds.c.s"
-	cd /data/app/redis/deps/hiredis && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /data/app/redis/deps/hiredis/sds.c -o CMakeFiles/hiredis.dir/sds.c.s
+	cd /data/app/c/redis/deps/hiredis && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /data/app/c/redis/deps/hiredis/sds.c -o CMakeFiles/hiredis.dir/sds.c.s
 
 deps/hiredis/CMakeFiles/hiredis.dir/async.c.o: deps/hiredis/CMakeFiles/hiredis.dir/flags.make
 deps/hiredis/CMakeFiles/hiredis.dir/async.c.o: deps/hiredis/async.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/data/app/redis/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object deps/hiredis/CMakeFiles/hiredis.dir/async.c.o"
-	cd /data/app/redis/deps/hiredis && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hiredis.dir/async.c.o   -c /data/app/redis/deps/hiredis/async.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/data/app/c/redis/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object deps/hiredis/CMakeFiles/hiredis.dir/async.c.o"
+	cd /data/app/c/redis/deps/hiredis && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hiredis.dir/async.c.o   -c /data/app/c/redis/deps/hiredis/async.c
 
 deps/hiredis/CMakeFiles/hiredis.dir/async.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hiredis.dir/async.c.i"
-	cd /data/app/redis/deps/hiredis && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /data/app/redis/deps/hiredis/async.c > CMakeFiles/hiredis.dir/async.c.i
+	cd /data/app/c/redis/deps/hiredis && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /data/app/c/redis/deps/hiredis/async.c > CMakeFiles/hiredis.dir/async.c.i
 
 deps/hiredis/CMakeFiles/hiredis.dir/async.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hiredis.dir/async.c.s"
-	cd /data/app/redis/deps/hiredis && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /data/app/redis/deps/hiredis/async.c -o CMakeFiles/hiredis.dir/async.c.s
+	cd /data/app/c/redis/deps/hiredis && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /data/app/c/redis/deps/hiredis/async.c -o CMakeFiles/hiredis.dir/async.c.s
 
 deps/hiredis/CMakeFiles/hiredis.dir/read.c.o: deps/hiredis/CMakeFiles/hiredis.dir/flags.make
 deps/hiredis/CMakeFiles/hiredis.dir/read.c.o: deps/hiredis/read.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/data/app/redis/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object deps/hiredis/CMakeFiles/hiredis.dir/read.c.o"
-	cd /data/app/redis/deps/hiredis && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hiredis.dir/read.c.o   -c /data/app/redis/deps/hiredis/read.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/data/app/c/redis/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object deps/hiredis/CMakeFiles/hiredis.dir/read.c.o"
+	cd /data/app/c/redis/deps/hiredis && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hiredis.dir/read.c.o   -c /data/app/c/redis/deps/hiredis/read.c
 
 deps/hiredis/CMakeFiles/hiredis.dir/read.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hiredis.dir/read.c.i"
-	cd /data/app/redis/deps/hiredis && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /data/app/redis/deps/hiredis/read.c > CMakeFiles/hiredis.dir/read.c.i
+	cd /data/app/c/redis/deps/hiredis && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /data/app/c/redis/deps/hiredis/read.c > CMakeFiles/hiredis.dir/read.c.i
 
 deps/hiredis/CMakeFiles/hiredis.dir/read.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hiredis.dir/read.c.s"
-	cd /data/app/redis/deps/hiredis && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /data/app/redis/deps/hiredis/read.c -o CMakeFiles/hiredis.dir/read.c.s
+	cd /data/app/c/redis/deps/hiredis && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /data/app/c/redis/deps/hiredis/read.c -o CMakeFiles/hiredis.dir/read.c.s
 
 # Object files for target hiredis
 hiredis_OBJECTS = \
@@ -155,9 +155,9 @@ deps/hiredis/libhiredis.a: deps/hiredis/CMakeFiles/hiredis.dir/async.c.o
 deps/hiredis/libhiredis.a: deps/hiredis/CMakeFiles/hiredis.dir/read.c.o
 deps/hiredis/libhiredis.a: deps/hiredis/CMakeFiles/hiredis.dir/build.make
 deps/hiredis/libhiredis.a: deps/hiredis/CMakeFiles/hiredis.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/data/app/redis/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C static library libhiredis.a"
-	cd /data/app/redis/deps/hiredis && $(CMAKE_COMMAND) -P CMakeFiles/hiredis.dir/cmake_clean_target.cmake
-	cd /data/app/redis/deps/hiredis && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hiredis.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/data/app/c/redis/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C static library libhiredis.a"
+	cd /data/app/c/redis/deps/hiredis && $(CMAKE_COMMAND) -P CMakeFiles/hiredis.dir/cmake_clean_target.cmake
+	cd /data/app/c/redis/deps/hiredis && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hiredis.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 deps/hiredis/CMakeFiles/hiredis.dir/build: deps/hiredis/libhiredis.a
@@ -165,10 +165,10 @@ deps/hiredis/CMakeFiles/hiredis.dir/build: deps/hiredis/libhiredis.a
 .PHONY : deps/hiredis/CMakeFiles/hiredis.dir/build
 
 deps/hiredis/CMakeFiles/hiredis.dir/clean:
-	cd /data/app/redis/deps/hiredis && $(CMAKE_COMMAND) -P CMakeFiles/hiredis.dir/cmake_clean.cmake
+	cd /data/app/c/redis/deps/hiredis && $(CMAKE_COMMAND) -P CMakeFiles/hiredis.dir/cmake_clean.cmake
 .PHONY : deps/hiredis/CMakeFiles/hiredis.dir/clean
 
 deps/hiredis/CMakeFiles/hiredis.dir/depend:
-	cd /data/app/redis && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /data/app/redis /data/app/redis/deps/hiredis /data/app/redis /data/app/redis/deps/hiredis /data/app/redis/deps/hiredis/CMakeFiles/hiredis.dir/DependInfo.cmake --color=$(COLOR)
+	cd /data/app/c/redis && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /data/app/c/redis /data/app/c/redis/deps/hiredis /data/app/c/redis /data/app/c/redis/deps/hiredis /data/app/c/redis/deps/hiredis/CMakeFiles/hiredis.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : deps/hiredis/CMakeFiles/hiredis.dir/depend
 

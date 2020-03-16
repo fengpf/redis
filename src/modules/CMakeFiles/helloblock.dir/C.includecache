@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/data/app/redis/src/modules/helloblock.c
+/data/app/c/redis/src/modules/helloblock.c
 ../redismodule.h
-/data/app/redis/src/redismodule.h
+/data/app/c/redis/src/redismodule.h
 stdio.h
 -
 stdlib.h
@@ -18,7 +18,7 @@ pthread.h
 unistd.h
 -
 
-/data/app/redis/src/redismodule.h
+/data/app/c/redis/src/redismodule.h
 sys/types.h
 -
 stdint.h

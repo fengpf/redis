@@ -1,4 +1,4 @@
-# Install script for directory: /data/app/redis/deps/hiredis
+# Install script for directory: /data/app/c/redis/deps/hiredis
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
